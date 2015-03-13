@@ -1,0 +1,11 @@
+From: {{.From}};
+To: {{.To}};
+Subject: Kích hoạt tài khoản User
+Thân gửi {{.DisplayName}},
+	Bạn vừa đăng ký tài khoản tại sharephim:
+		Username: {{.UserName}}
+		Password: {{.Password}}
+	Sau đây là đường link kích hoạt tài khoản của bạn:
+	http://sharephim.vn/active?uid={{.Uid}}
+Regards,
+administrator
